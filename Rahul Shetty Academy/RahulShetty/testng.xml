@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testcases.TC0002_SignInWithRightPassword"/>
+      <class name="testcases.TC0001_SignInWithPageTitleAssertion"/>
+      <class name="testcases.TC0003_LogOutWithAssertion"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
